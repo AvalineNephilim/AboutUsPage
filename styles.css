@@ -10,6 +10,7 @@
 body {
     /* position: relative; */
     width: 100vw;
+    overflow-x: hidden;
 }
 
 section {
@@ -23,6 +24,7 @@ section {
     background-image: url('./img/HomeBg.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 1028px 750px;
     /* width: 100%;
     height: 100%; */
 }
@@ -190,7 +192,7 @@ section {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: 1028px 750px;
+    background-size: 1000px 650px;
     /* width: 100%;
     height: 100%; */
     max-width: 968px;
@@ -215,6 +217,7 @@ section {
 .rab .grid .imageBx {
     width: 100%;
     height: auto;
+    margin-top: 3.5rem;
     /* transition: transform 0.5s; */
 }
 
@@ -226,6 +229,17 @@ section {
 .rab .grid .contentBx {
     text-align: justify;
     margin-top: 3rem;
+}
+
+.rab .grid .contentBx .description {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.rab .grid .contentBx .description p, .rab .grid .contentBx .description .subsection {
+    line-height: 1.3rem;
+    margin-top: 1rem;
 }
 
 /* About Robust and Best section ends */
@@ -253,7 +267,7 @@ section {
 
 .ourstory .grid {
     display: grid;
-    column-gap: 1rem;
+    column-gap: 2rem;
     margin-left: 4rem;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -261,7 +275,9 @@ section {
 .ourstory .grid .imageBx {
     width: 100%;
     height: auto;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
+    margin-top: 2rem;
+
 }
 
 .ourstory .grid .imageBx img {
@@ -318,6 +334,7 @@ section {
 .ourmission .grid .imageBx {
     width: 100%;
     height: auto;
+    margin-top: 1rem;
     /* transition: transform 0.5s; */
 }
 
@@ -329,6 +346,17 @@ section {
 .ourmission .grid .contentBx {
     text-align: justify;
     margin-top: 3rem;
+}
+
+.ourmission .grid .contentBx .description {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.ourmission .grid .contentBx .description p, .ourmission .grid .contentBx .description .subsection {
+    line-height: 1.3rem;
+    margin-top: 1rem;
 }
 /* Our Mission section ends */
 
@@ -449,6 +477,10 @@ section {
     margin-left: 6rem;
     margin-right: 6rem;
     padding: 1rem;
+    background-image: url('./img/JoinUsBg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1028px 750px;
 }
 
 .map .job_wrapper div {
@@ -510,3 +542,14 @@ section {
 }
 
 /* Map + Join Us section ends */
+
+/* Media query starts */
+
+/* small devices - phone */
+
+/* medium devices - tablet */
+
+/* large devices - desktop */
+
+
+/* Media query ends */
